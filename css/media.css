@@ -1,0 +1,98 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px){
+	.menu_desktop{
+		display: none;
+	}
+	.page__footer{
+		min-width: 100%;
+	}
+	.photo_main{
+		position: static;
+		max-width: 400px;
+	}
+}
+@media only screen and (max-width: 992px) and (orientation: landscape){
+	.page__header{
+		min-height: initial;
+	}
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) and (orientation: portrait){
+	html{
+		font-size: 7px;
+	}
+	a{
+		font-size: 2rem;
+	}
+	.header__title{
+		display: none;
+	}
+}
+
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) and (orientation: portrait){
+	.header__caption{
+		display: none;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) and (orientation: portrait){
+	.photo_main{
+		max-width: 100%;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+	.menu__link_slide,
+	#menu_slide{
+		display: none;
+	}
+	.page__header,
+	.page__content,
+	.page__footer{
+		min-width: 96rem;	
+	}
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}

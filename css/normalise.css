@@ -1,0 +1,64 @@
+*,
+*:after,
+*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 10px; /*for rems*/
+}
+body{
+	font-size: 16px; /*reset fz from html */
+	font-family: Arial, sans-serif;
+}
+
+
+a {
+	text-decoration: none;
+	outline: none;
+	font-size: 1.4rem;
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+/* ============================================== Typography  ======================================*/
+h1,
+h2,
+h3,
+h4,
+h5{
+		font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	margin: 1rem 0;
+}
+
+h2 {
+	color: #9a9a9a;
+	font-size: 3rem;
+	line-height: 1;
+	padding-bottom: 3.8rem;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+h3 {
+	color: #4cbaf0;
+	font-size: 1.4rem;
+	width: 100%;
+	padding-bottom: 0.9rem;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+p {
+	font-size: 1.4rem;
+	color: #898989;
+	padding-bottom: 2.2rem;
+	text-align: left;
+}

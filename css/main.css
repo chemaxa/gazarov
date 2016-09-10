@@ -1,0 +1,163 @@
+
+html,body,#layout{
+	height: 100%;
+	overflow-x: hidden;
+}	
+
+/*============================================== Desktop menu ======================================*/
+.menu_desktop{
+	background-color: rgba(46, 58, 64, 0.9);
+	flex: 1;
+	padding-left: 64px; /*Corner image width */
+}
+.menu__list_desktop{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.menu__item_desktop{
+	display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.menu__item_desktop a{
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.menu__item_desktop a:hover{
+	text-decoration: none;
+}
+/*============================================== Contacts ===================================*/
+.contacts{
+	margin: 1rem 0; /*REMOVE!*/
+}
+.contacts__button{
+	font-size: 2rem;
+}
+.contacts__phone{
+	font-family: 'Times New Roman', sans-serif;
+  color: #28a4e1;
+  font-size: 3.5rem;
+  padding: 0;
+}
+.contacts__phone:hover{
+	text-decoration: none;
+}
+/*============================================== Logo ======================================*/
+
+.logo{
+	background-color: #28A4E1;
+	min-width: 40%;
+	text-align: right;
+	padding: 0.8rem 10px;
+	position: relative;
+}
+.logo:after{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 100%;
+	background: url(../img/arrow.png) no-repeat top left;
+	height: 100%;
+	width: 64px;
+	background-size: contain;
+}
+.logo img{
+	display: inline-block;	
+	max-width: 100%;
+	height: auto;
+
+}
+
+/*=============================================== main photo ========================================= */
+.photo_main{
+	position: fixed;
+	left: 50%;
+	top: 0;
+	z-index: -4;
+	max-width: 100%;
+	display: inline-block;
+	height: auto;
+	margin:auto;
+}
+
+/*============================================== Layout ======================================*/
+.page__header,
+.page__content,
+.page__footer{
+	margin-left: auto;
+	margin-right: auto;
+}
+.full-width{
+	width: 100vw;
+	position: relative;
+	left: 50%;
+	margin-left: -50vw;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.page__header{
+	padding-top: 20px;
+	min-height: 50%;
+}
+#layout{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+.page__content{
+	flex:1 0 auto;
+}
+.page__footer{
+	flex:0 0 auto;	
+	border-top: 1px dashed #28A4E1;
+  border-bottom: 1px dashed #28A4E1;
+  text-align: center;
+}
+
+/* =========================== Header captions ======================*/
+.header__title{
+	background: url("../img/extra.png") no-repeat 10% 16%;
+}
+.header__caption,
+.header__caption_dark{
+	font-size: 4.9rem;
+	display: block;
+	line-height: 1;
+}
+.header__caption{
+	color: #9a9a9a;
+}
+.header__caption_dark{
+	color: #5a5a5a;
+}
+.header__caption:first-of-type{
+	padding-bottom: 7rem;
+}
+.header__caption:last-of-type{
+	padding-left: 5rem;
+	padding-bottom: 0;
+}
+
+/* ============================= Popup ============================= */
+
+.popupStarter {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.popup {
+	width: 400px;
+	display: none;
+	background-color: white;
+	border-radius: 30px;
+	padding: 20px;
+}
