@@ -27,6 +27,7 @@
     position: relative;
     right: 150px;
   }
+
 }
 @media only screen and (max-width: 992px) and (orientation: landscape){
 	.page__header{
@@ -43,6 +44,9 @@
 	a{
 		font-size: 2rem;
 	}
+	p{
+  	font-size: 2rem;
+  }
 	.header__title{
 		display: none;
 	}
