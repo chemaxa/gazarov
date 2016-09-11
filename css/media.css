@@ -26,6 +26,8 @@
 	.photo_main{
 		position: static;
 		max-width: 400px;
+		display: block;
+		margin-bottom: 10px;
 	}
 	#layout.active {
     position: relative;

@@ -43,6 +43,7 @@ html,body,#layout{
 /*============================================== Contacts ===================================*/
 .contacts{
 	margin: 1rem 0; /*REMOVE!*/
+	text-align: center;
 }
 .contacts__banner{
 	background: url('../img/banner_bg.png') ;
@@ -180,6 +181,7 @@ html,body,#layout{
 /* =========================== Header captions ======================*/
 .header__title{
 	background: url("../img/extra.png") no-repeat 10% 16%;
+	padding-left: 10px;
 }
 .header__caption,
 .header__caption_dark{
