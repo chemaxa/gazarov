@@ -15,10 +15,18 @@
 	.page__footer{
 		min-width: 100%;
 	}
+	.page__header{
+		padding-top: 45px;
+		min-height: initial;
+	}
 	.photo_main{
 		position: static;
 		max-width: 400px;
 	}
+	#layout.active {
+    position: relative;
+    right: 150px;
+  }
 }
 @media only screen and (max-width: 992px) and (orientation: landscape){
 	.page__header{
