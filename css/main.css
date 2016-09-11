@@ -29,6 +29,10 @@ html,body,#layout{
 .menu__item_desktop a:hover{
 	text-decoration: none;
 }
+/*============================================== About =========================================*/
+.about{
+	padding: 0px 10px;
+}
 /*============================================== Contacts ===================================*/
 .contacts{
 	margin: 1rem 0; /*REMOVE!*/
@@ -102,7 +106,7 @@ html,body,#layout{
 	display: flex;
 }
 .page__header{
-	padding-top: 20px;
+	padding-top: 10px;
 	min-height: 50%;
 }
 #layout{

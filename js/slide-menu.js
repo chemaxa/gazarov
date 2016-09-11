@@ -2,7 +2,8 @@ $(function () {
  
     var layout   = document.getElementById('layout'),
         menu     = document.getElementById('menu_slide'),
-        menuLink = document.getElementById('menu__link_slide');
+        menuLink = document.getElementById('menu__link_slide'),
+        active = 'active';
 
     function toggleClass(element, className) {
         var classes = element.className.split(/\s+/),
@@ -22,14 +23,25 @@ $(function () {
 
         element.className = classes.join(' ');
     }
+    
+    function removeClass(element,className){
+        element.classList.remove(className);
+    }
 
     menuLink.onclick = function (e) {
-        var active = 'active';
-
         e.preventDefault();
         toggleClass(layout, active);
         toggleClass(menu, active);
         toggleClass(menuLink, active);
     };
- 
+    document.body.onclick=function(e){
+        //If click on slide menu link, or toggler
+        if( $(e.target).closest('#'+menu.id).length || e.target.id == menuLink.id){
+            return
+        }
+        removeClass(layout, active);
+        removeClass(menu, active);
+        removeClass(menuLink, active);  
+    }
 });
+
