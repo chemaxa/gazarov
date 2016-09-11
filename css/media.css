@@ -89,6 +89,7 @@
 	.page__content,
 	.page__footer{
 		min-width: 96rem;	
+		width: 96rem;
 	}
 }
 
