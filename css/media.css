@@ -17,6 +17,8 @@
 	}
 	.page__header{
 		padding-top: 45px;
+	}
+	.page_header_home{
 		min-height: initial;
 	}
 	.photo_main{

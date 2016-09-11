@@ -87,6 +87,11 @@ html,body,#layout{
 	height: auto;
 	margin:auto;
 }
+.photo_services{
+	position: fixed;
+	left: 50%;
+	top: 100%;
+}
 
 /*============================================== Layout ======================================*/
 .page__header,
@@ -95,6 +100,7 @@ html,body,#layout{
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .full-width{
 	width: 100vw;
 	position: relative;
@@ -108,7 +114,7 @@ html,body,#layout{
 }
 .page__header{
 	padding-top: 10px;
-	min-height: 50%;
+	flex:1 0 auto;
 }
 #layout{
 	display: -webkit-flex;
