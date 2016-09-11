@@ -37,12 +37,36 @@ html,body,#layout{
 .services{
 	padding-left: 35%;
 }
+.services__link{
+	color: #28a4e1;
+}
 /*============================================== Contacts ===================================*/
 .contacts{
 	margin: 1rem 0; /*REMOVE!*/
 }
+.contacts__banner{
+	background: url('../img/banner_bg.png') ;
+	padding: 10px;
+	position: relative;
+	display: table;
+	width: 100%;
+	margin: 10px 0;
+}
+.contacts__banner:before{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	content: '';
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	border: 1px dashed #91D1F0;
+	z-index: -1;
+}
+
 .contacts__button{
 	font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 .contacts__phone{
 	font-family: 'Times New Roman', sans-serif;
@@ -52,6 +76,20 @@ html,body,#layout{
 }
 .contacts__phone:hover{
 	text-decoration: none;
+}
+.contacts__phone,
+.contacts__button{
+	vertical-align: middle;
+}
+.contacts__banner .contacts__phone,
+.contacts__banner .contacts__button{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.contacts__adress{
+	margin: 10px 0;
+	text-align: center;
 }
 /*============================================== Logo ======================================*/
 

@@ -12,6 +12,8 @@
 	.menu_desktop{
 		display: none;
 	}
+	.page__header,
+	.page__content,
 	.page__footer{
 		min-width: 100%;
 	}
@@ -32,9 +34,6 @@
 
 }
 @media only screen and (max-width: 992px) and (orientation: landscape){
-	.page__header{
-		min-height: initial;
-	}
 }
 
 /* Small Devices, Tablets */
@@ -43,12 +42,10 @@
 	html{
 		font-size: 7px;
 	}
-	a{
+	a,p,h3{
 		font-size: 2rem;
 	}
-	p{
-  	font-size: 2rem;
-  }
+	
 	.header__title{
 		display: none;
 	}
