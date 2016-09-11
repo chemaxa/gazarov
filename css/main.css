@@ -34,6 +34,9 @@ html,body,#layout{
 .prices{
 	padding: 0px 10px;
 }
+.services{
+	padding-left: 35%;
+}
 /*============================================== Contacts ===================================*/
 .contacts{
 	margin: 1rem 0; /*REMOVE!*/
@@ -89,8 +92,10 @@ html,body,#layout{
 }
 .photo_services{
 	position: fixed;
-	left: 50%;
-	top: 100%;
+	left: 0%;
+	top: -10%;
+	z-index: -4;
+	max-width: 45%;
 }
 
 /*============================================== Layout ======================================*/
