@@ -224,3 +224,12 @@ html,body,#layout{
 	border-radius: 30px;
 	padding: 20px;
 }
+
+.pure-form-aligned .pure-control-group label{
+	text-align: center;
+	padding-bottom: 5px;
+}
+.pure-form input[type=text], 
+.pure-form-aligned textarea{
+	width: 70%;
+}

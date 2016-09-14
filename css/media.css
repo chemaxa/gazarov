@@ -61,6 +61,16 @@
 	}
 }
 
+@media only screen and (max-width: 620px) and (orientation: portrait){
+	.logo{
+		width: 100%;
+		text-align: center;
+	}
+	.logo img{
+		max-width: 100%;
+		width: 360px;
+	}
+}
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) and (orientation: portrait){
