@@ -19,6 +19,7 @@ html,body,#layout{
 	display: table-cell;
   vertical-align: middle;
   text-align: center;
+  height: 100%;
 }
 .menu__item_desktop a{
   color: #fff;
@@ -155,6 +156,7 @@ html,body,#layout{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	-webkit-align-items: stretch;
 	align-items: stretch;
 	justify-content: center;
 	align-items: stretch;
