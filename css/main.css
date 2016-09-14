@@ -155,6 +155,10 @@ html,body,#layout{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	align-items: stretch;
+	flex-wrap: nowrap;
 }
 .page__header{
 	padding-top: 10px;
