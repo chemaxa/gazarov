@@ -8,11 +8,17 @@ html,body,#layout{
 .menu_desktop{
 	background-color: rgba(46, 58, 64, 0.9);
 	flex: 1;
-	padding-left: 64px; /*Corner image width */
+	
+	position: relative;
 }
 .menu__list_desktop{
 	display: table;
-	width: 100%;
+	position: absolute;
+	top:0;
+	left: 64px; /*Corner image width */
+	right: 0;
+	bottom: 0;
+	width: 95%;
 	height: 100%;
 }
 .menu__item_desktop{
@@ -111,6 +117,7 @@ html,body,#layout{
 	height: 100%;
 	width: 64px;
 	background-size: contain;
+	z-index: 1;
 }
 .logo img{
 	display: inline-block;	
