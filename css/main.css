@@ -26,9 +26,28 @@ html,body,#layout{
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
+  position: relative;
 }
 .menu__item_desktop a:hover{
 	text-decoration: none;
+}
+.menu__item_desktop a:hover:after {
+	opacity: 1;
+	transform: translateY(140%);
+}
+
+
+.menu__item_desktop a:after{
+	content: '';
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	background: url(../img/menu_marker.png) no-repeat;
+	width: 9px;
+	height: 5px;
+	transition: all 0.2s ease-in 0s;
 }
 /*============================================== Pages =========================================*/
 .about,
