@@ -37,6 +37,7 @@ html,body,#layout{
 }
 .services{
 	padding-left: 35%;
+	min-height: 50vh;
 }
 .services__link{
 	color: #28a4e1;
@@ -134,9 +135,9 @@ html,body,#layout{
 .photo_services{
 	position: fixed;
 	left: 0%;
-	top: -10%;
+	top: 0%;
 	z-index: -4;
-	max-width: 45%;
+	max-width: 35%;
 }
 
 /*============================================== Layout ======================================*/
