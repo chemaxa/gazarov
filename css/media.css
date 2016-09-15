@@ -14,7 +14,8 @@
 	}
 	.page__header,
 	.page__content,
-	.page__footer{
+	.page__footer,
+	.contacts_page{
 		min-width: 100%;
 	}
 	.page__header{
@@ -27,7 +28,6 @@
 		position: static;
 		max-width: 400px;
 		display: block;
-		margin-bottom: 10px;
 	}
 	#layout.active {
     position: relative;
@@ -36,6 +36,10 @@
   .contacts{
   	text-align: center;	
   }
+	.pure-form input[type=text], 
+	.pure-form-aligned textarea{
+		margin: auto;
+	}
 	
 }
 @media only screen and (max-width: 992px) and (orientation: landscape){
@@ -93,6 +97,21 @@
 	.contacts__header{
 		padding-bottom: 10px;
 	}
+	.photo_main{
+		max-width: 255px;
+		margin-top: -65px;
+	}
+	.logo img{
+		max-width: 100%;
+		width: 210px;
+	}
+	.contacts__banner,
+	.contacts__banner .contacts__phone,
+	.contacts__banner .contacts__button{
+		display: block;
+		margin: 10px auto;
+	}
+	
 }
 
 
