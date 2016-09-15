@@ -71,7 +71,11 @@
 	}
 	.logo img{
 		max-width: 100%;
-		width: 360px;
+		width: 300px;
+	}
+	.photo_main{
+		max-width: 300px;
+		margin-top: -65px;
 	}
 }
 /* Extra Small Devices, Phones */
@@ -86,8 +90,8 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 320px) and (orientation: portrait){
-	.photo_main{
-		max-width: 100%;
+	.contacts__header{
+		padding-bottom: 10px;
 	}
 }
 

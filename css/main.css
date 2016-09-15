@@ -59,7 +59,8 @@ html,body,#layout{
 }
 .services{
 	padding-left: 35%;
-	min-height: 50vh;
+	height: 50vh;
+	overflow: auto;
 }
 .services__link{
 	color: #28a4e1;
