@@ -33,7 +33,10 @@
     position: relative;
     right: 150px;
   }
-
+  .contacts{
+  	text-align: center;	
+  }
+	
 }
 @media only screen and (max-width: 992px) and (orientation: landscape){
 }
@@ -119,6 +122,10 @@
 	.page__footer{
 		min-width: 96rem;	
 		width: 96rem;
+	}
+	.photo_main{
+		width: 900px;
+		top:-5%;
 	}
 }
 

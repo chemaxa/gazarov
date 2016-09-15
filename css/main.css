@@ -54,6 +54,9 @@ html,body,#layout{
 .prices{
 	padding: 0px 10px;
 }
+.about{
+	max-width: 90%;
+}
 .services{
 	padding-left: 35%;
 	min-height: 50vh;
@@ -64,8 +67,12 @@ html,body,#layout{
 /*============================================== Contacts ===================================*/
 .contacts{
 	margin: 1rem 0; /*REMOVE!*/
-	text-align: center;
+	
 }
+.contacts_page{
+	max-width: 70%;
+}
+
 .contacts__banner{
 	background: url('../img/banner_bg.png') ;
 	padding: 10px;
@@ -184,7 +191,7 @@ html,body,#layout{
 	flex-wrap: nowrap;
 }
 .page__header{
-	padding-top: 10px;
+	padding-top: 10%;
 	flex:1 0 auto;
 }
 #layout{
