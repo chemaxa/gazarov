@@ -19,7 +19,7 @@
 		min-width: 100%;
 	}
 	.page__header{
-		padding-top: 45px;
+		padding-top: 50px;
 	}
 	.page_header_home{
 		min-height: initial;
@@ -43,6 +43,9 @@
 	}
 	.hidden-xs{
 		display: none !important;
+	}
+	.services_xl{
+		min-height: 80vh; 
 	}
 }
 @media only screen and (max-width: 992px) and (orientation: landscape){
