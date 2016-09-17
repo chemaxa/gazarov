@@ -67,8 +67,7 @@ html,body,#layout{
 }
 /*============================================== Contacts ===================================*/
 .contacts{
-	margin: 1rem 0; /*REMOVE!*/
-	
+	margin: 1rem 0; 
 }
 .contacts_page{
 	max-width: 70%;
@@ -261,3 +260,4 @@ html,body,#layout{
 .pure-form-aligned textarea{
 	width: 70%;
 }
+
