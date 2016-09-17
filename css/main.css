@@ -6,7 +6,7 @@ html,body,#layout{
 
 /*============================================== Desktop menu ======================================*/
 .menu_desktop{
-	background-color: rgba(46, 58, 64, 0.9);
+	background-color: rgba(28, 35, 39, 0.9);
 	flex: 1;
 	padding-left: 64px;/*Corner image width */
 }
@@ -124,7 +124,7 @@ html,body,#layout{
 
 .logo{
 	background-color: #28A4E1;
-	min-width: 40%;
+	min-width: 30%;
 	text-align: right;
 	padding: 0.8rem 10px;
 	position: relative;
