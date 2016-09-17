@@ -32,7 +32,7 @@
 	}
 	#layout.active {
     position: relative;
-    right: 150px;
+    left: 150px;
   }
   .contacts{
   	text-align: center;	

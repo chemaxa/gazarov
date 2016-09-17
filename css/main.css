@@ -201,6 +201,7 @@ html,body,#layout{
 	display: -o-flex;
 	display: flex;
 	flex-direction: column;
+	transition: all 0.2s ease-out;
 }
 .page__content{
 	flex:1 0 auto;
