@@ -59,7 +59,7 @@ html,body,#layout{
 }
 .services{
 	padding-left: 35%;
-	height: 50vh;
+	max-height: 60vh;
 	overflow: auto;
 }
 .services__link{
@@ -191,7 +191,7 @@ html,body,#layout{
 	flex-wrap: nowrap;
 }
 .page__header{
-	padding-top: 10%;
+	padding-top: 7%;
 	flex:1 0 auto;
 }
 #layout{

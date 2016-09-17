@@ -41,7 +41,9 @@
 	.pure-form-aligned textarea{
 		margin: auto;
 	}
-	
+	.hidden-xs{
+		display: none !important;
+	}
 }
 @media only screen and (max-width: 992px) and (orientation: landscape){
 }
