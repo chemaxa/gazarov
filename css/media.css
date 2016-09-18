@@ -28,7 +28,7 @@
 		position: static;
 		max-width: 400px;
 		display: block;
-		transform: translateX(20%);
+		transform: translateX(10%);
 	}
 	#layout.active {
     position: relative;
