@@ -81,7 +81,11 @@
 @media only screen and (max-width: 620px) and (orientation: portrait){
 	.logo img{
 		max-width: 100%;
-		width: 200px;
+		width: 240px;
+	}
+	.logo{
+		min-width:75%;
+		text-align: center; 
 	}
 	.photo_main{
 		max-width: 300px;
