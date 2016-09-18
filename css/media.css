@@ -47,6 +47,10 @@
 	.services_xl{
 		min-height: 90vh; 
 	}
+	.logo_xs{
+		background-color: rgba(28, 35, 39, 0.9);
+		justify-content: flex-start;
+	}
 }
 @media only screen and (max-width: 992px) and (orientation: landscape){
 }
@@ -75,13 +79,9 @@
 }
 
 @media only screen and (max-width: 620px) and (orientation: portrait){
-	.logo{
-		width: 100%;
-		text-align: center;
-	}
 	.logo img{
 		max-width: 100%;
-		width: 240px;
+		width: 200px;
 	}
 	.photo_main{
 		max-width: 300px;
