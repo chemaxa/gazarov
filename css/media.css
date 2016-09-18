@@ -45,7 +45,7 @@
 		display: none !important;
 	}
 	.services_xl{
-		min-height: 80vh; 
+		min-height: 90vh; 
 	}
 }
 @media only screen and (max-width: 992px) and (orientation: landscape){
